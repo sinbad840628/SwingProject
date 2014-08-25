@@ -1,3 +1,5 @@
+package com.swing.chapter03;
+
 //这段代码主要是让读者清楚如何在带有菜单的顶层容器中添加普通组件。
 import javax.swing.*;
 public class test2

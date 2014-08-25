@@ -1,3 +1,5 @@
+package com.swing.chapter03;
+
 //这段代码主要是考查读者是否熟悉如何在顶层容器内的内容面板
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

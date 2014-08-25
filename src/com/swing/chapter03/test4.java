@@ -1,3 +1,5 @@
+package com.swing.chapter03;
+
 //这段代码主要考查读者对于如何在顶层容器中添加普通组件
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

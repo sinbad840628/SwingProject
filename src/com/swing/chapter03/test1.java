@@ -1,3 +1,5 @@
+package com.swing.chapter03;
+
 //这段代码主要是为读者介绍了如何将普通组件添加到内容面板中
 import javax.swing.*;
 public class test1

@@ -1,3 +1,5 @@
+package com.swing.chapter03;
+
 //这段代码主要是为读者介绍如何将创建好的菜单放置在顶层容器内
 import javax.swing.*;
 public class menutest

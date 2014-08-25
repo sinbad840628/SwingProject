@@ -1,3 +1,5 @@
+package com.swing.chapter04;
+
 //这段代码主要是为读者展示了创建标签的方法，并且通过在构造器中为标签初始赋值
 import javax.swing.*;
 public class test1
