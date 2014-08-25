@@ -1,3 +1,4 @@
+package com.swing.chapter04;
 import javax.swing.*;
 public class test7
 {

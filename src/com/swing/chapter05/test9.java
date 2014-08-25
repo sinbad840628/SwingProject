@@ -1,3 +1,5 @@
+package com.swing.chapter05;
+
 //这段程序主要是为读者展示如何使用BoxLayout 布局管理器针对组件进行布局
 import javax.swing.*;
 import java.awt.*;

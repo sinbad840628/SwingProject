@@ -1,3 +1,5 @@
+package com.swing.chapter05;
+
 //这段代码主要是为读者展示如何使用GridLayout布局管理器，在程序中将九个普通按钮组件按照此布局管理器放置在内容面板中。
 import javax.swing.*;
 import java.awt.*;

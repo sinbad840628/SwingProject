@@ -1,7 +1,8 @@
+package com.swing.chapter05;
 //这段代码主要是将FlowLayout布局管理器同顶层容器关联，然后再在其中添加五个布局管理器的内容面板，而这个内容面板，每一个内容面板添加五个组件，每一个内容面板是按照BorderLayout布局管理方式排列组件
 import javax.swing.*;
 import java.awt.*;
-public class test4
+public class test4 extends JPanel
 //Download by http://www.codefans.net
 {
 static final int WIDTH=300;
@@ -39,7 +40,7 @@ static final int WIDTH=300;
          JButton b23=new JButton("办公桌");
          JButton b24=new JButton("钢笔");
          JButton b25=new JButton("文件夹");
-         contentpane.setLayout(new FlowLayout());//将中间容器的布局管理器设为FlowLayout
+         contentPane.setLayout(new FlowLayout());//将中间容器的布局管理器设为FlowLayout
          JPanel p1=new JPanel();//创建五个中间容器，并且将每个中间容器的布局管理器设置为BorderLayout
          JPanel p2=new JPanel();
          JPanel p3=new JPanel();

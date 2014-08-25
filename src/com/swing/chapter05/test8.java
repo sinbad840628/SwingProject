@@ -1,3 +1,5 @@
+package com.swing.chapter05;
+
 //这段程序代码主要是为读者展示如何使用CardLayout布局管理器针对内容面板中的组件进行布局
 import java.awt.BorderLayout;
 import java.awt.CardLayout;
@@ -79,7 +81,7 @@ catch (Exception ex)
             public void actionPerformed(ActionEvent e) {
                 card.show(pane, "p1");
             }
-        })
+        });
         b_2.addActionListener(new ActionListener() 
 { 
 // 直接翻转到p_2

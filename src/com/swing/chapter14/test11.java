@@ -1,3 +1,5 @@
+package com.swing.chapter14;
+
 //这段程序代码主要是为读者展示使用渲染器让表格中偶数行的颜色为蓝色，奇数行不变
 import java.awt.*; 
 import java.awt.event.*; 

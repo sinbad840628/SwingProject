@@ -1,3 +1,5 @@
+package com.swing.chapter10;
+
 //这段程序代码主要是创建一个文件保存对话框并且处理其事件，以及创建一个打开对话框且处理其事件
 import javax.swing.*;
 import java.awt.*;

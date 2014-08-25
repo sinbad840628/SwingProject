@@ -1,3 +1,5 @@
+package com.swing.chapter13;
+
 //这段程序代码主要是为读者展示如何创建一个具有菜单条和菜单的菜单组件
 import javax.swing.*;
 import java.awt.*;

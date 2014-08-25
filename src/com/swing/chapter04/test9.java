@@ -1,3 +1,4 @@
+package com.swing.chapter04;
 //这段程序代码主要是为读者展示如何创建按钮组件和标签组件，并且将处理按钮组件的动作事件
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -18,7 +19,7 @@ public class test9 extends JPanel
     JTextField text1;
     JTextField text2;
     String str;
-    Test9()
+    test9()
     {
     	JFrame frame=new JFrame();
     	frame.setTitle("测试窗口");

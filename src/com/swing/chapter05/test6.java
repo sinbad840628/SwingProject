@@ -1,3 +1,4 @@
+package com.swing.chapter05;
 //这段代码主要是用GirdLayout布局管理器与顶层窗口关联，在这个布局管理器中添加FlowLayout布局管理器和BorderLayout布局管理器，最后，在这些布局管理器中添加控件
 import javax.swing.*;
 import java.awt.*;

@@ -1,5 +1,8 @@
+package com.swing.chapter19;
+
 //这段程序代码主要为读者展示如何为组件指定键绑定功能
 import javax.swing.*;
+
 import java.awt.*;
 import java.awt.event.*;
 
@@ -17,7 +20,21 @@ private static final long serialVersionUID = 1L;
     static JTabbedPane tp;
     public test12() 
     {
-      ……………………………//与19.4中的实例相同位置加黑部分内容相同
+    	JFrame frame=new JFrame("边框测试程序");
+		  Toolkit kit=Toolkit.getDefaultToolkit();
+		  Dimension screenSize=kit.getScreenSize();
+		  int width=screenSize.width;
+		  int height=screenSize.height;
+		  int x=(width-WIDTH)/2;
+		  int y=(height-HEIGHT)/2;
+		  frame.setLocation(x,y);
+	      frame.setSize(WIDTH, HEIGHT);
+		  frame.setVisible(true);
+		  frame.pack();
+		  JPanel pane=new JPanel();
+		  frame.setContentPane(pane);
+		  pane.setBorder(BorderFactory.createLineBorder(Color.red));//设置内容面板的边框的颜色为红色
+		  //与19.4中的实例相同位置加黑部分内容相同
       buttonAction buttonaction=new buttonAction("磨砂分厂职工信息");
       button1.setAction(buttonaction);
       menuAction menuaction=new menuAction("退出");

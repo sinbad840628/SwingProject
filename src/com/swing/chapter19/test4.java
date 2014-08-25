@@ -1,3 +1,5 @@
+package com.swing.chapter19;
+
 //这段程序代码主要是为读者展示如何为容器添加边框
 import java.awt.Color;
 import java.awt.Dimension;

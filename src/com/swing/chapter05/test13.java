@@ -1,4 +1,6 @@
-mport java.awt.BorderLayout;
+package com.swing.chapter05;
+
+import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.FlowLayout;
 import java.awt.GridBagConstraints;

@@ -1,3 +1,5 @@
+package com.swing.chapter14;
+
 //这段程序代码主要是为读者展示如何使用编辑器让第一列数据为不可编辑状态
 import   java.awt.BorderLayout; 
 import   javax.swing.JFrame; 

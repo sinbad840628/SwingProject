@@ -1,10 +1,11 @@
+package com.swing.chapter04;
 import javax.swing.ButtonGroup;
 import javax.swing.JCheckBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
-public class test8extends JPanel
+public class test8 extends JPanel
 {
 	static final int WIDTH=300;
     static final int HEIGHT=200;
@@ -42,6 +43,6 @@ public class test8extends JPanel
     }
     public static void main(String[] args)
     {
-    	new test();
+    	new test8();
     }
 }

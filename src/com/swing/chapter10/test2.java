@@ -1,3 +1,5 @@
+package com.swing.chapter10;
+
 //这段程序代码主要是为读者展示如何创建一个具有可选择文件类型的对话框
 import java.awt.*;
 import javax.swing.*;

@@ -1,3 +1,5 @@
+package com.swing.chapter07;
+
 //这段程序代码主要是创建一个文本框和一个普通按钮组件，当单击这个按钮组件时，会触发动作事件，清空文本框中的数据
 import javax.swing.*;
 import java.awt.*;

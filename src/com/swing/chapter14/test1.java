@@ -1,3 +1,5 @@
+package com.swing.chapter14;
+
 //这段程序代码主要是为读者展示创建表格的方法，创建表格的方法主要是通过“JTable(Object[][] rowData,Object[ ][ ] columnNames)”来创建两个数组来作为创建表格的两个参数
 import javax.swing.*;
 import java.awt.*;

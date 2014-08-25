@@ -1,3 +1,5 @@
+package com.swing.chapter17;
+
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -60,8 +62,8 @@ public class test3 extends Thread
 
 					protected Object doInBackground() 
 					{
-						new compute(100);
-						text2.setText(""+compute.sum);
+						new computer(100);
+						text2.setText(""+computer.sum);
 						return null;
 					}
 				};
@@ -76,10 +78,10 @@ public class test3 extends Thread
 		new test3();
 	}
 }
-class compute
+class computer
 {
 	static int sum=0;
-	compute(int n)
+	computer(int n)
 	{
 		for(int i=0;i<n;i++)
 		{

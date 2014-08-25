@@ -1,3 +1,5 @@
+package com.swing.chapter05;
+
 import java.awt.CardLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -27,7 +29,7 @@ public class test15
     JPanel p8;
     JPanel p9;
     CardLayout card;
-    Test15()
+    test15()
     {
     	JFrame frame=new JFrame();
     	frame.setTitle("Êý×Ö·­¹ö´°¿Ú");

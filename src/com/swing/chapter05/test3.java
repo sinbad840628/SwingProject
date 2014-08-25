@@ -1,3 +1,4 @@
+package com.swing.chapter05;
 //这段代码主要是为读者展示FlowLayout布局管理器的使用方法
 import javax.swing.*;
 import java.awt.*;

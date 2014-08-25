@@ -1,3 +1,4 @@
+package com.swing.chapter05;
 //这段代码主要是为读者展示如何使用SpringLayout布局管理器为组件进行布局
 import javax.swing.*;
 import java.awt.*;

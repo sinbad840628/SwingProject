@@ -1,3 +1,4 @@
+package com.swing.chapter04;
 //这段代码主要是为读者展示如何创建单选按钮组件，并且将这些单选按钮组件添加到一个按钮组中
 import javax.swing.*;
 public class test5

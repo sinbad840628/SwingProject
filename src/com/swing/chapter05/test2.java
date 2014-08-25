@@ -1,3 +1,4 @@
+package com.swing.chapter05;
 //这段代码主要是为读者展示如何将五个内容面板添加到于顶层容器相关连的内容面板中的五个不同方向，而本身这五个内容面板中也分别包含了位于五个不同方向的按钮组件
 import javax.swing.*;
 import java.awt.*;

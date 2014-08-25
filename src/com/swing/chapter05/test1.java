@@ -1,3 +1,4 @@
+package com.swing.chapter05;
 //Download by http://www.codefans.net
 //这段代码主要是为读者展示如何使用BorderLayout布局管理器将组件进行布局
 import javax.swing.*;

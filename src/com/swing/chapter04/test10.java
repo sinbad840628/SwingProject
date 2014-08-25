@@ -1,3 +1,4 @@
+package com.swing.chapter04;
 //这个程序代码主要是为读者展示、单选按钮组件的创建，以及单选按钮组件的“setEnable()”方法的使用
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -13,7 +14,7 @@ import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 public class test10 extends JPanel
 {
-	　　static final int WIDTH=300;
+	public static final int WIDTH=300;
     static final int HEIGHT=200;
     JRadioButton r1;
     JRadioButton r2;

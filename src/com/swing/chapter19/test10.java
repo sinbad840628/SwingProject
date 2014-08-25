@@ -1,3 +1,5 @@
+package com.swing.chapter19;
+
 //这段程序代码主要是为读者展示如何在众多的组件中为组件指定默认焦点
 import javax.swing.*;
 import java.awt.*;

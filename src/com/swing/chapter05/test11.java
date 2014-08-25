@@ -1,3 +1,4 @@
+package com.swing.chapter05;
 //这段代码主要是为读者展示如何使用GroupLayout布局管理器进行布局
 import java.awt.Container;
 import java.awt.HeadlessException;

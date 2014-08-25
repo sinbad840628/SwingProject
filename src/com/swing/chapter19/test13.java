@@ -1,3 +1,5 @@
+package com.swing.chapter19;
+
 //这段程序代码主要是为读者展示如何使用不同的模态形式创建顶层窗口
 import java.awt.*;
 import java.awt.event.*;
@@ -29,8 +31,8 @@ import javax.swing.*;
          GraphicsConfiguration gc = gd.getDefaultConfiguration();
          int sw = gc.getBounds().width - 64;
          int sh = gc.getBounds().height - 64;
-         JLabel l;
-         JButton b;
+         Label l;
+         Button b;
          MenuBar mb;
          Menu m;
          MenuItem mi;

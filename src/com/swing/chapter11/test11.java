@@ -1,3 +1,5 @@
+package com.swing.chapter11;
+
 //这段程序代码主要是向读者展示如何打印文本组件
 import java.awt.*;
 import java.awt.event.*;

@@ -1,3 +1,5 @@
+package com.swing.chapter14;
+
 //这段程序代码主要是为读者展示如何创建选择器，和使用选择器来以不同的方式选择表格中的单元格
 import java.awt.*;
 import java.awt.event.*;

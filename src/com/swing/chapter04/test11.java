@@ -1,3 +1,4 @@
+package com.swing.chapter04;
 //这个程序代码主要是为读者展示如何创建复选框按钮组件以及复选框按钮组件的“setEnable()”方法的使用
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;

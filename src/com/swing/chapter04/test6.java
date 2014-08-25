@@ -1,3 +1,4 @@
+package com.swing.chapter04;
 //这段代码主要是为读者展示如何创建单选按钮组件，以及如何将它们放在不同的按钮组中
 import javax.swing.*;
 public class test6
@@ -28,7 +29,7 @@ static final int WIDTH=300;
          bg2.add(jr4);
          bg3.add(jr5);
          bg3.add(jr6);
-///将六个单选按钮添加到内容面板中
+         ///将六个单选按钮添加到内容面板中
          contentPane.add(jr1);
          contentPane.add(jr2);
          contentPane.add(jr3);

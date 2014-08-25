@@ -1,3 +1,5 @@
+package com.swing.chapter19;
+
 //这个实例主要是创建五个按钮组件，这个五个按钮组件上的文本将会通过不同HTML文档，使其展现出不同的外观
 import java.awt.Dimension;
 import java.awt.Toolkit;

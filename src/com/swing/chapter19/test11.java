@@ -1,3 +1,5 @@
+package com.swing.chapter19;
+
 //这段程序代码主要为读者展示如何使用遍历策略来规范众多组件的焦点子系统
 import javax.swing.*;
 import java.awt.*;
@@ -44,7 +46,7 @@ public class test11
 	      frame.setSize(WIDTH, HEIGHT);
 		  frame.setVisible(true);
 		  frame.pack();
-		  framefocus focus1=new framefocus();
+		  framefocust focus1=new framefocust();
 		  frame.setFocusTraversalPolicy(focus1);
 		  
 		  frame.addWindowListener(new WindowAdapter()
@@ -61,82 +63,82 @@ public static void main(String args[])
   new test11();
  }
 }
-class framefocus extends FocusTraversalPolicy
+class framefocust extends FocusTraversalPolicy
 {//焦点遍历策略，这里是向后遍历，也就是说当按TAB键时，当前按钮组件的下一个按钮组件是哪一个
 	public Component getComponentAfter(Container arg0, Component arg1)
 	{
 		
-		if(arg1.equals(test.button1))//如果当前组件是按钮一的话，则下一个遍历对象则是按钮二
+		if(arg1.equals(test11.button1))//如果当前组件是按钮一的话，则下一个遍历对象则是按钮二
 		{
-			return test.button2;
+			return test11.button2;
 		}
-		else if(arg1.equals(test.button2))
+		else if(arg1.equals(test11.button2))
 		{
-			return test.button4;
+			return test11.button4;
 		}
-		else if(arg1.equals(test.button4))
+		else if(arg1.equals(test11.button4))
 		{
-			return test.button3;
+			return test11.button3;
 		}
-		else if(arg1.equals(test.button3))
+		else if(arg1.equals(test11.button3))
 		{
-			return test.button5;
+			return test11.button5;
 		}
-		else if(arg1.equals(test.button5))
+		else if(arg1.equals(test11.button5))
 		{
-			return test.button7;
+			return test11.button7;
 		}
-		else if(arg1.equals(test.button7))
+		else if(arg1.equals(test11.button7))
 		{
-			return test.button6;
+			return test11.button6;
 		}
-		return test.button1;
+		return test11.button1;
 	}
 
 	public Component getComponentBefore(Container arg0, Component arg1) 
 	{//焦点遍历策略，这里是向前遍历，也就是说当按TAB键时，当前按钮组件的下一个按钮组件是哪一个
-		if(arg1.equals(test.button6))
+		if(arg1.equals(test11.button6))
 		{
-			return test.button7;
+			return test11.button7;
 		}
-		else if(arg1.equals(test.button7))
+		else if(arg1.equals(test11.button7))
 		{
-			return test.button5;
+			return test11.button5;
 		}
-		else if(arg1.equals(test.button5))
+		else if(arg1.equals(test11.button5))
 		{
-			return test.button3;
+			return test11.button3;
 		}
-		else if(arg1.equals(test.button3))
+		else if(arg1.equals(test11.button3))
 		{
-			return test.button4;
+			return test11.button4;
 		}
-		else if(arg1.equals(test.button4))
+		else if(arg1.equals(test11.button4))
 		{
-			return test.button2;
+			return test11.button2;
 		}
-		else if(arg1.equals(test.button2))
+		else if(arg1.equals(test11.button2))
 		{
-			return test.button1;
+			return test11.button1;
 		}
-		return test.button1;
+		return test11.button1;
 	}
 
 	public Component getDefaultComponent(Container arg0) 
 	{
 		
-		return test.button1;
+		return test11.button1;
 	}
 
 	public Component getFirstComponent(Container arg0) 
 	{
 	
-		return test.button1;
+		return test11.button1;
 	}
 
 	public Component getLastComponent(Container arg0)
 	{
 		
-		return test.button6;
+		return test11.button6;
 	}
 }

@@ -1,3 +1,5 @@
+package com.swing.chapter05;
+
 //这段代码主要是为读者展示如何使用GridBagLayout布局管理器布局方式来排列内容面板中的组件
 import javax.swing.*;
 import java.awt.*;
@@ -52,11 +54,10 @@ JFrame loginframe;
         loginframe.setResizable(false);
         loginframe.setVisible(true);  
     }
-}
-public class test7
-{
+    
     public static void main(String[] args)
     {
-        login log=new login();
+        new  test7();
+    }
 }
- }
+

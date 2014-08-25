@@ -1,3 +1,5 @@
+package com.swing.chapter11;
+
 //这段程序主要是向读者展示如何创建JTextPane组件，并且像WORD文档一样，可以修改文字属性
 import javax.swing.*;
 import javax.swing.text.*;
