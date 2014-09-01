@@ -1,3 +1,5 @@
+package com.swing.chapter14;
+
 //这段代码主要是验证如何使用编辑器来验证用户输入的数据的正确与否
 import java.awt.BorderLayout;
 import java.awt.Component;

@@ -1,3 +1,5 @@
+package com.swing.chapter14;
+
 //这段程序代码主要是为读者展示创建表格的方法，创建表格的方法主要是通过“JTable(int numRows,int numColumns)”来创建表格，numRows指行数，numColumn指列数。
 import javax.swing.*;
 import java.awt.*;

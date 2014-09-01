@@ -1,3 +1,5 @@
+package com.swing.chapter14;
+
 //这段代码主要是为读者展示如何使用复选框作为编辑器来编辑表格中的单元格
 import javax.swing.table.AbstractTableModel;
 import javax.swing.*;
